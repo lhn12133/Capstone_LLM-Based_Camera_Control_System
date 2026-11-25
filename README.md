@@ -15,6 +15,8 @@
 - 카메라별 탐지 정보와 LLM 분석 결과를 연계하여 상황 판단을 지원
 
 ## 2. 전체 시스템 구성도
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/de664800-7183-4c4a-b50e-de98800dffea" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0d7181ce-d092-49ce-b31d-de276b7bef42" />
 
 
 **영상 경로:** IP Camera → RTSP → MediaMTX → WebRTC → Dashboard
@@ -27,6 +29,7 @@
 
 ## 3. 개발 기술 스택
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/907faac5-7a6f-41ef-afd6-6f1d3770d462" />
 
 
 | 구분 | 기술 | 적용 목적 |
@@ -105,6 +108,7 @@ LLM 출력 예시: "CAM01에서 사람 1명이 탐지되었습니다. 현재 정
 
 ## 5. 데이터 저장 구조
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0470828e-c9d5-4893-9173-04a765524ed5" />
 
 
 | 저장소 / 테이블 | 주요 역할 및 필드 |
@@ -174,12 +178,12 @@ LLM 출력 예시: "CAM01에서 사람 1명이 탐지되었습니다. 현재 정
 
 | 슬라이드 | 핵심 내용 | 사용 이미지 |
 |---|---|---|
-| 1 | 프로젝트 배경과 개발 목표 | 01_architecture.png (일부 활용 가능) |
-| 2 | 전체 시스템 구성 및 모듈 역할 | 01_architecture.png |
+| 1 | 프로젝트 배경과 개발 목표 | 
+| 2 | 전체 시스템 구성 및 모듈 역할 |
 | 3 | 개발 기술 스택 | 04_tech_stack.png |
-| 4 | 영상 탐지 및 이벤트 처리 과정 | 02_data_flow.png |
-| 5 | DB와 객체 스토리지 설계 | 03_storage.png |
-| 6 | 구현 결과 및 테스트 | 실제 Dashboard 탐지 결과 캡처 (개인정보 제거 후 삽입) |
-| 7 | LLM 통합 및 향후 검증 | 02_data_flow.png 하단 통합 경로 |
+| 4 | 영상 탐지 및 이벤트 처리 과정 |
+| 5 | DB와 객체 스토리지 설계 |
+| 6 | 구현 결과 및 테스트 | 
+| 7 | LLM 통합 및 향후 검증 |
 
 
